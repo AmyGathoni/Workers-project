@@ -1,0 +1,89 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	bottom: 0;
+}
+
+
+.wrapper{
+	border: black solid;
+	height: 250px;
+	width: 600px;
+	text-align: center;
+	display: flex;
+    overflow: hidden;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);  
+  display: flex;	
+}
+
+.wrapper .left{
+	width: 45%;
+	background-color: #A6B98E;
+
+}
+
+.wrapper .left img{
+	height:5rem;
+    width:5rem;
+    border-radius: 50%;
+    object-fit: contain;
+    margin-bottom: 1rem;
+    border:solid #fff;
+}
+
+.wrapper .left h4{
+	background-color: #A6B98E;
+}
+
+.wrapper .left h4 a{
+  text-decoration: none;
+  color: black;
+  background-color: #A6B98E;
+}
+
+.wrapper .left .rating{
+	margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  margin-top: 18px;
+  background-color: #A6B98E;
+}
+
+.wrapper .left .rating i{
+  font-size: 18px;
+  margin: 0 2px;
+  color: #fff;
+  background-color: #A6B98E;
+}
+
+.wrapper .left .media-icons{
+	margin-top: 30px;
+	color: white;
+	background-color: #A6B98E;
+}
+
+.wrapper .left .media-icons i{
+	background-color: #A6B98E;
+}
+
+.wrapper .right{
+	width: 55%;
+}
+
+.wrapper .right .data h4{
+	text-align: left;
+}
+
+.wrapper .right .data h4 a{
+	color: black;
+}
+
+a button [class="btn"]{
+	background: #A6B98E;
+	color: black;
+
+}

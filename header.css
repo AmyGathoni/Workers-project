@@ -1,0 +1,39 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.navHeader{
+	background-color: #A6B98E;
+	padding: 50px;
+	border: black solid;
+}
+
+.navHeader ul{
+	display: flex;
+	list-style: none;
+    justify-content: space-between;
+    padding-left: 5px;
+    border-style: none;
+    border: none;
+    background-color: #A6B98E;
+}
+
+.navHeader ul li a[class="nav"]{
+	background-color: #A6B98E;
+	text-decoration: none;
+	color: black;
+	font-size: 25px;
+	border-style: none;
+	border: none;
+}
+
+.navHeader ul li a:hover{
+	color: #A18EB9;
+}
+
+.head1{
+	text-align: center;
+	padding: 100px;
+	border-style: none;
+}
